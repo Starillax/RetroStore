@@ -1,0 +1,156 @@
+CRITICAL - 2022-05-16 00:33:46 --> Too few arguments to function App\Models\UsersModel::getUsuario(), 0 passed in C:\xampp\htdocs\retrostore\app\Controllers\Home.php on line 60 and exactly 1 expected
+#0 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(60): App\Models\UsersModel->getUsuario()
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->selectUser()
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 00:36:22 --> Undefined variable $data
+#0 C:\xampp\htdocs\retrostore\app\Views\user_lista.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\retrostore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\retrostore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('user_lista', Array, true)
+#4 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(64): view('user_lista', Array)
+#5 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->selectUser()
+#6 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-16 00:41:29 --> Undefined variable $data
+#0 C:\xampp\htdocs\retrostore\app\Views\user_lista.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\retrostore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\retrostore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('user_lista', Array, true)
+#4 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(64): view('user_lista', Array)
+#5 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(15): App\Controllers\Home->selectUser()
+#6 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\retrostore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-16 00:42:11 --> Undefined variable $data
+#0 C:\xampp\htdocs\retrostore\app\Views\user_lista.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\retrostore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\retrostore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('user_lista', Array, true)
+#4 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(64): view('user_lista', Array)
+#5 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->selectUser()
+#6 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\retrostore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-16 00:42:16 --> Undefined variable $data
+#0 C:\xampp\htdocs\retrostore\app\Views\categoria_lista.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\retrostore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\retrostore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('categoria_lista', Array, true)
+#4 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(372): view('categoria_lista', Array)
+#5 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->selectCategoria()
+#6 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\retrostore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-16 00:42:46 --> Undefined variable $data
+#0 C:\xampp\htdocs\retrostore\app\Views\user_lista.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\retrostore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\retrostore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('user_lista', Array, true)
+#4 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(64): view('user_lista', Array)
+#5 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(15): App\Controllers\Home->selectUser()
+#6 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\retrostore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-16 00:42:48 --> Undefined variable $data
+#0 C:\xampp\htdocs\retrostore\app\Views\user_lista.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\retrostore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\retrostore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('user_lista', Array, true)
+#4 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(64): view('user_lista', Array)
+#5 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->selectUser()
+#6 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\retrostore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-16 00:42:49 --> Undefined variable $data
+#0 C:\xampp\htdocs\retrostore\app\Views\user_lista.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\retrostore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\retrostore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('user_lista', Array, true)
+#4 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(64): view('user_lista', Array)
+#5 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->selectUser()
+#6 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\retrostore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-16 00:47:01 --> Undefined variable $data
+#0 C:\xampp\htdocs\retrostore\app\Views\user_lista.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\retrostore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\retrostore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('user_lista', Array, true)
+#4 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(64): view('user_lista', Array)
+#5 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(15): App\Controllers\Home->selectUser()
+#6 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\retrostore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-16 00:58:36 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\retrostore\app\Views\user_lista.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\retrostore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\retrostore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('user_lista', Array, true)
+#4 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(64): view('user_lista', Array)
+#5 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(15): App\Controllers\Home->selectUser()
+#6 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\retrostore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-16 01:00:40 --> Too few arguments to function App\Controllers\Home::showEditCategoria(), 0 passed in C:\xampp\htdocs\retrostore\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->showEditCategoria()
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-16 01:01:04 --> Too few arguments to function App\Controllers\Home::showEditCategoria(), 0 passed in C:\xampp\htdocs\retrostore\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->showEditCategoria()
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-16 01:03:04 --> Too few arguments to function App\Controllers\Home::showEditCategoria(), 0 passed in C:\xampp\htdocs\retrostore\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->showEditCategoria()
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-16 01:12:50 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\retrostore\app\Controllers\Home.php on line 23
+#0 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(23): view('user_form', 'insert')
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->showInsertUser()
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 01:14:02 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\retrostore\app\Controllers\Home.php on line 336
+#0 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(336): view('categoria_form', 'insert')
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->showInsertCategoria()
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 01:31:04 --> Too few arguments to function App\Controllers\Home::showEditUser(), 0 passed in C:\xampp\htdocs\retrostore\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->showEditUser()
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

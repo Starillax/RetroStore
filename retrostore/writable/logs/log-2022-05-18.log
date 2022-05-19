@@ -1,0 +1,68 @@
+CRITICAL - 2022-05-18 16:10:10 --> Undefined property: App\Controllers\Home::$session
+#0 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->insertUser()
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 16:17:09 --> Too few arguments to function App\Controllers\Home::deleteUser(), 0 passed in C:\xampp\htdocs\retrostore\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->deleteUser()
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-18 16:24:40 --> Too few arguments to function App\Controllers\Home::showEditUser(), 0 passed in C:\xampp\htdocs\retrostore\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->showEditUser()
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-18 16:25:23 --> Too few arguments to function App\Controllers\Home::showEditUser(), 0 passed in C:\xampp\htdocs\retrostore\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->showEditUser()
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-18 17:01:16 --> Undefined variable $form_tipo
+#0 C:\xampp\htdocs\retrostore\app\Views\user_form.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\retrostore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\retrostore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('user_form', Array, true)
+#4 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(77): view('user_form', Array, Array)
+#5 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->showEditUser('1')
+#6 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-18 17:05:36 --> Call to undefined method App\Models\UsersModel::removeOrder
+#0 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(124): CodeIgniter\Model->__call('removeOrder', Array)
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->deleteUser('4')
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 20:14:21 --> Unclosed '{' on line 29
+#0 C:\xampp\htdocs\retrostore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('produto_form', Array, true)
+#2 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(142): view('produto_form', Array)
+#3 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->showInsertProduto()
+#4 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-18 20:40:20 --> Unknown column 'categoria' in 'field list'
+CRITICAL - 2022-05-18 20:40:20 --> Unknown column 'categoria' in 'field list'
+#0 C:\xampp\htdocs\retrostore\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\retrostore\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\retrostore\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\retrostore\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\retrostore\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\retrostore\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\retrostore\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\retrostore\app\Models\ProdutosModel.php(21): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(206): App\Models\ProdutosModel->insertProduto(Array)
+#9 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->insertProduto()
+#10 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

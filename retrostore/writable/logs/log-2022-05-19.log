@@ -1,0 +1,105 @@
+CRITICAL - 2022-05-19 01:22:02 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\retrostore\app\Controllers\Home.php on line 242
+#0 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(242): view('produto_form', 'update')
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->showEditProduto('6')
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 01:34:19 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\retrostore\app\Controllers\Home.php on line 242
+#0 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(242): view('produto_form', 'update')
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->showEditProduto('1')
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 01:35:10 --> Undefined variable $tipo_form
+#0 C:\xampp\htdocs\retrostore\app\Views\produto_form.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\retrostore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\retrostore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('produto_form', Array, true)
+#4 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(242): view('produto_form', Array)
+#5 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->showEditProduto('1')
+#6 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-19 01:35:51 --> Undefined variable $produtos
+#0 C:\xampp\htdocs\retrostore\app\Views\produto_form.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\retrostore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\retrostore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('produto_form', Array, true)
+#4 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(242): view('produto_form', Array)
+#5 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->showEditProduto('1')
+#6 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-19 01:36:16 --> Undefined variable $categorias
+#0 C:\xampp\htdocs\retrostore\app\Views\produto_form.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\retrostore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\retrostore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('produto_form', Array, true)
+#4 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(242): view('produto_form', Array)
+#5 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->showEditProduto('1')
+#6 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-19 01:49:32 --> Call to undefined method App\Models\ProdutosModel::update_Usuario
+#0 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(276): CodeIgniter\Model->__call('update_Usuario', Array)
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->editProduto('6')
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 05:28:58 --> Call to undefined method App\Models\ComprasModel::insertProduto
+#0 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(407): CodeIgniter\Model->__call('insertProduto', Array)
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->comprarProduto('1')
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 05:30:00 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\retrostore\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\retrostore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('total_compras', Array, true)
+#3 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(146): view('total_compras', Array)
+#4 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->comprasUser('3')
+#5 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 05:31:44 --> Undefined variable $row
+#0 C:\xampp\htdocs\retrostore\app\Views\total_compras.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\retrostore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\retrostore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('total_compras', Array, true)
+#4 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(146): view('total_compras', Array)
+#5 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->comprasUser('3')
+#6 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-19 05:40:40 --> Duplicate entry '3-1' for key 'PRIMARY'
+CRITICAL - 2022-05-19 05:40:40 --> Duplicate entry '3-1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\retrostore\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\retrostore\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\retrostore\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\retrostore\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\retrostore\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\retrostore\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\retrostore\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\retrostore\app\Models\ComprasModel.php(14): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(407): App\Models\ComprasModel->insertCompra(Array)
+#9 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->comprarProduto('1')
+#10 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-19 06:06:31 --> Array to string conversion
+#0 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->comprasUser('1')
+#2 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

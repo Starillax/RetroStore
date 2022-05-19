@@ -1,0 +1,15 @@
+CRITICAL - 2022-05-12 08:47:31 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\retrostore\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\retrostore\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-12 17:56:47 --> Invalid file: login.php
+#0 C:\xampp\htdocs\retrostore\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\retrostore\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\retrostore\app\Controllers\Home.php(13): view('login')
+#3 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\retrostore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\retrostore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
